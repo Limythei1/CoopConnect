@@ -319,16 +319,42 @@ h1 {
 
 .dashboard-preview {
   border: 1px solid;
+  border-radius: 10px;
   padding: 20px;
+  background-color: #F1F5FB;
+  color: #172B4D;
 } 
 
 .dashboard-preview h3 {
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .dashboard-preview h4 {
   font-weight: bold;
 }
+
+.dashboard-prew-head {
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+  gap: 10px;
+}
+
+.das-prew-icon {
+  align-self: flex-start;
+  font-size: 1rem;
+}
+
+.dash-prew-intro {
+  font-size: 1.2rem;
+}
+
+.dash-prew-intro p {
+  font-size: 1rem;
+  color: #64748B;
+}
+
 
 .account-overview {
   gap: 10px;
@@ -341,6 +367,7 @@ h1 {
   background-color: #ffffff;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
 }
 
 @media (max-width:768px) {
@@ -351,6 +378,7 @@ h1 {
 
 .prew span {
   font-weight: 600;
+  color: #64748B;
 }
 
 .mp-container {
@@ -360,7 +388,7 @@ h1 {
 }
 
 .tracker-con {
-  background-color: #ffffff;
+  background-color: #F8FAFF;
   height: 10px;
   border-radius: 10px;
 }
@@ -373,18 +401,32 @@ h1 {
 }
 
 .cp-container {
+  width: 100%;
   background-color: #ffffff;
   padding: 10px;
   border: none;
   border-radius: 10px;
+  justify-self: center;
+  box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
 }
 
 .thickspan {
   font-weight: 600;
+  color: #64748B;
 }
 
 .member-sche {
   display: flex;
   justify-content: space-between;
   text-align: justify;
+}
+
+.up-container {
+  width: 100%;
+  justify-self: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
 }
