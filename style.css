@@ -436,6 +436,13 @@ h1 {
   box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
 }
 
+.ttt-con {
+  border: 2px solid #ffffff;
+  box-shadow: 0 15px 20px rgba(0, 60, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .ttt-con hr {
   width: 80%;
   color: #ffffff;
@@ -447,13 +454,34 @@ h1 {
 
 .ttt-card-con {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+  color: #ffffff;
+  
 }
 
 .ttt-icon {
   width: fit-content;
   height: fit-content;
+  font-size: 1rem;
   padding: 12px;
   background-color: #ffffff;
   border-radius: 10px;
+  color: #0057FF;
+}
+
+.ttt-example {
+  width: 90%;
+  border: 2px solid #ffffff;
+  display: flex;
+  gap: 15px;
+  justify-self: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  box-shadow: 0 15px 20px rgba(0, 60, 0, 0.8);
+}
+
+.ttt-example-icon {
+  align-self: flex-start;
+  font-size: 1.5rem;
 }
