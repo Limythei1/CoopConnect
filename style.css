@@ -348,7 +348,7 @@ h1 {
 
 .das-prew-icon {
   align-self: flex-start;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .dash-prew-intro {
@@ -436,6 +436,11 @@ h1 {
   box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
 }
 
+.ttt-hiw {
+  margin: 50px 0px;
+  justify-self: center;
+}
+
 .ttt-con {
   border: 2px solid #ffffff;
   box-shadow: 0 15px 20px rgba(0, 60, 0, 0.8);
@@ -456,7 +461,6 @@ h1 {
   display: flex;
   gap: 20px;
   color: #ffffff;
-  
 }
 
 .ttt-icon {
@@ -478,10 +482,120 @@ h1 {
   padding: 15px;
   border-radius: 10px;
   color: #ffffff;
-  box-shadow: 0 15px 20px rgba(0, 60, 0, 0.8);
+  box-shadow: 0 10px 15px rgba(0, 60, 0, 0.8);
 }
 
 .ttt-example-icon {
   align-self: flex-start;
   font-size: 1.5rem;
+}
+
+.faq-hiw {
+  margin: 50px 0px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  justify-self: center;
+  box-shadow: 0 15px 20px rgba(0, 60, 0, 0.8);
+}
+
+.accordion-con {
+  justify-self: center;
+  width: 100%;
+}
+
+.accordion-card {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 15px;
+  color: #172B4D;
+}
+
+.accordion-card button {
+  font-weight: bold;
+}
+
+.card-body {
+  font-weight: 400;
+}
+
+.about-about {
+  margin: 50px 0px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.about-about p {
+  color: #172B4D;
+  font-weight: 500;
+}
+
+.about-about h3 {
+  font-size: 1rem;
+  color: #0057FF;
+  font-weight: 700;
+}
+
+.about-about h1 {
+  font-size: 1.8rem;
+  color: #172B4D;
+}
+
+.about-about-dets {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #64748B;
+}
+
+.mv-container {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.mv {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  text-align: justify;
+  box-shadow: 0 12px 18px rgba(23, 43, 77, 0.05);
+}
+
+@media(max-width:768px) {
+  .mv {
+    width: 100%;
+  }
+}
+
+.mv i {
+  color: #0057FF;
+  font-weight: 700;
+}
+
+
+.partners-con {
+  margin: 50px 0px;
+  border: 2px solid #ffffff;
+  justify-self: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.partner-card {
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
