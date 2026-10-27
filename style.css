@@ -544,6 +544,7 @@ h1 {
 }
 
 .about-about-dets {
+  width: 60%;
   display: flex;
   align-items: center;
   gap: 7px;
