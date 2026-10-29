@@ -30,6 +30,11 @@ h1 {
 
 }
 
+.nav-tog-btn{
+  background-color: #0057FF;
+  color: #ffffff;
+}
+
 .navbrand {
   display: flex;
   justify-content: center;
@@ -651,6 +656,7 @@ h1 {
 }
 
 .about-cta {
+  width: 90%;
   background-color: #ffffff;
   padding: 15px;
   border: none;
@@ -668,6 +674,7 @@ h1 {
 }
 
 .git-con {
+  width: 90%;
   justify-self: center;
   margin: 50px 0px;
   padding: 0;
@@ -716,7 +723,7 @@ h1 {
   background-color: #172B4D;
   color: #ffffff;
   margin-bottom: 0;
-  padding: 15px;
+  padding: 20px;
 }
 
 .footer a {
@@ -755,5 +762,4 @@ h1 {
 
   .pt-con {
     display: flex;
-
   }
