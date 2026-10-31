@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoopConnect_Login</title>
+
+   <!-- Google Font Inter -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!--Bootstrap Css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--font awesome---->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="ls.css">
+
+</head>
+<body>
+
+    <div class="container ls-main-con">
+    <div class="row ls-con g-3">
+      <div class="col-md ls-dis-con">
+        <img src="images/user_icon.jpg" class="rounded-circle mb-3 user-icon" alt="Circular Image">
+
+        <div class="ls-text mb-3">
+          <h3>Welcome back User</h3>
+          <span>Save together. Grow together.</span>
+        </div>
+
+        <form>
+          <div class="mb-3 input-con">
+            <label for="Email" class="form-label visually-hidden">Email</label>
+            <input type="text" class="form-control" placeholder="Email" id="emailInput">
+          </div>
+
+          <div class="mb-3 input-con">
+            <label for="Password" class="form-label visually-hidden">Password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+          </div>
+        </form>
+
+          <div class="fp-con">
+            <a href="#" class="nav-link">Forgotten Password</a>
+          </div>
+
+          <div class="ls-btn mb-3">
+            <a href="#" type="button" class="btn">Login</a>
+          </div>
+
+          <div class="ls-request">
+            <p>Don't have an account? <a href="register.html">SignUp</a></p>
+          </div>
+      </div>
+
+      <div class="col-md d-none d-md-block ls-img-con">
+        <img src="images/login_illustration.jpg" alt="Login Illustration" class="img-fluid">
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

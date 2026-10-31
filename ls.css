@@ -1,0 +1,157 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+  color: #172B4D;
+}
+
+body {
+  background-color: #0057FF;
+  padding: 0px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #172B4D;
+  }
+
+.ls-main-con {
+    width: 100%;
+    color: #ffffff;
+  }
+
+  @media (max-width:768px) {
+    .ls-main-con {
+      width: 90%;
+    }
+  }
+
+  .ls-con {
+    border: 2px solid #ffffff;
+    box-shadow: 0 14px 16px rgba(23, 43, 77, 0.8);
+    border-radius: 15px;
+  }
+
+  /* @media (max-width:576px) {
+    .ls-con {
+      min-height: 90vh;
+    }
+  } */
+
+  .ls-dis-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .ls-text {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .ls-text h3 {
+    font-weight: 700;
+    font-size: medium;
+  }
+
+  .ls-text span {
+    font-size: x-small;
+  }
+
+  .user-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .input-con input{
+    width: 100%;
+    color: #172B4D;
+    font-size: small;
+  }
+
+  .input-con input::placeholder {
+    color: #172B4D;
+    font-size: small;
+  }
+
+  .fp-con {
+    width: 100%;
+    text-align: right;
+  }
+
+  .fp-con a{
+    font-size: small;
+    color: #172B4D;
+  }
+
+  .fp-con a:hover {
+    color: #111e36;
+  }
+
+  .ls-btn {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ls-btn a{
+    width: 100%;
+    border: 1px solid #172B4D;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: medium;
+    background-color: #172B4D;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .ls-btn a:hover {
+    background-color: transparent;
+    border: 2px solid #172B4D;
+    color: #ffffff;
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+    padding: 6px;
+  }
+
+  .ls-request {
+    font-size: smaller;
+  }
+
+  .ls-request a {
+    color: #172B4D;
+    text-decoration: none;
+  }
+
+  .ls-request a:hover {
+    color: #111e36;
+  }
+
+  .ls-img-con{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ls-img-con img{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
