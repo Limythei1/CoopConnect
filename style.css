@@ -501,6 +501,7 @@ h1 {
 }
 
 .faq-hiw {
+  width: 90%;
   margin: 50px 0px;
   border: 2px solid #ffffff;
   border-radius: 10px;
