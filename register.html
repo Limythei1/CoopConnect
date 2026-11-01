@@ -24,38 +24,54 @@
 
 </head>
 <body>
-  <div class="container ls-main-con">
-    <div class="row ls-con">
+
+    <div class="container ls-main-con">
+    <div class="row ls-con g-3">
       <div class="col-md ls-dis-con">
         <img src="images/user_icon.jpg" class="rounded-circle mb-3 user-icon" alt="Circular Image">
 
         <div class="ls-text mb-3">
-          <h3>Welcome back User</h3>
-          <span>Save together. Grow together.</span>
+          <h3>Create Account</h3>
+          <span>Sign up to get started withyour dshboard</span>
         </div>
 
         <form>
           <div class="mb-3 input-con">
+            <label for="Fname" class="form-label visually-hidden">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" id="nameInput">
+          </div>
+
+          <div class="mb-3 input-con">
             <label for="Email" class="form-label visually-hidden">Email</label>
-            <input type="text" class="form-control" placeholder="Email" id="emailInput">
+            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3 input-con">
+            <label for="Pnumber" class="form-label visually-hidden">Phone Number</label>
+            <input type="tel" class="form-control" id="pnumberInput" placeholder="Enter Phone Number">
           </div>
 
           <div class="mb-3 input-con">
             <label for="Password" class="form-label visually-hidden">Password</label>
-            <input type="text" class="form-control" id="passwordInput" placeholder="Password">
+            <input type="password" class="form-control" id="passwordInput" placeholder="Enter your password">
+          </div>
+
+          <div class="mb-3 input-con">
+            <label for="Password" class="form-label visually-hidden">Confirm Password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="Confirm Password">
           </div>
         </form>
 
-          <div >
+          <!-- <div class="fp-con">
             <a href="#" class="nav-link">Forgotten Password</a>
+          </div> -->
+
+          <div class="ls-btn mb-3">
+            <a href="#" type="button" class="btn">Proceed</a>
           </div>
 
-          <div>
-            <button type="button" class="btn">Login</button>
-          </div>
-
-          <div>
-            <p>Don't have an account? <a href="register.html">SignUp</a></p>
+          <div class="ls-request">
+            <p>Already Have an Account? <a href="login.html">Login</a></p>
           </div>
       </div>
 
