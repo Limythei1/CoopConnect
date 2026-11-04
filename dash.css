@@ -1,0 +1,269 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e2ecfa;
+}
+
+.dash-con {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  padding: 0;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+@media(max-width:768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-head h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.sidenav h4 {
+  font-size: 1.1rem;
+  color: #64748B;
+  font-weight: 500;
+}
+
+.sidenav a {
+  color: #64748B;
+  font-weight: 500;
+  gap: 20px;
+}
+
+.nav-icon {
+  background-color: #0057FF;
+  color:#ffffff;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.main-dash {
+  padding: 10px;
+}
+
+@media (max-width:768px) {
+  .main-dash {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.date-icon-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-con input[type="text"] {
+  background-color: transparent;
+  border: none;
+  font-size: small;
+  width: 100%;
+}
+
+.dateicon-con {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.iconsdate {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.iconsdate i {
+  font-size: 1rem;
+  color: #0057FF;
+}
+
+.ds-con {
+  color: #16A36A;
+  font-weight: 500;
+  background-color: #E8F7EF;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.gccb-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-con h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.g-con p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #64748B;
+}
+
+.gccb-con button {
+  background-color: #0057FF;
+  border: none;
+  color: #ffffff;
+  width: fit-content;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.ado-con {
+  gap: 20px;
+  padding: 10px;
+}
+
+.ado-card {
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.ado-card i {
+  color: #0057FF;
+  font-size: 1rem;
+}
+
+.ado-card span {
+  font-size: 0.9rem;
+  color: #64748B;
+  font-weight: 500;
+}
+
+.ado-card h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.ado-card p {
+  font-size: 0.9rem;
+  color: #64748B;
+  font-weight: 500;
+}
+
+#active_p {
+  color: #16A36A;
+}
+
+.main-over-con {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.mv-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mv-con span {
+  font-size: 0.9rem;
+  color: #64748B;
+  font-weight: 600;
+}
+
+.mv-con a {
+  font-size: 0.8rem;
+}
+
+.icds-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icd-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+  background-color: #F1F5FB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icd-icon i {
+  font-size: 1rem;
+  color: #0057FF;
+}
+
+.icdd p {
+  font-size: 0.9rem;
+  color: #64748B;
+  font-weight: 600;
+}
+
+.icdd span {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.icd-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pst-con {
+  gap: 20px;
+  padding: 10px;
+}
+
+.uprt-con {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.lattra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
