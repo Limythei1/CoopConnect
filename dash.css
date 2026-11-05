@@ -45,7 +45,7 @@ body {
 }
 
 .sidenav a {
-  color: #64748B;
+  color: #0057FF;
   font-weight: 500;
   gap: 20px;
 }
@@ -142,7 +142,17 @@ body {
   width: fit-content;
   padding: 10px;
   font-size: 0.8rem;
+  border-radius: 5px;
 }
+
+.gccb-con button:hover {
+  transform: translateY(-3px);
+  transition: 1.5s ease;
+  box-shadow: 0 9px 11px rgba(23, 43, 77, 0.8);
+  border-radius: 10px;
+  color: #172B4D;
+}
+
 
 .ado-con {
   gap: 20px;
@@ -158,6 +168,27 @@ body {
   flex-direction: column;
   text-align: justify;
   line-height: 30px;
+  box-shadow: 0 10px 12px rgba(23, 43, 77, 0.8);
+}
+
+.ado-card:hover {
+  transform: translateY(-5px);
+  transition: 1.5s ease;
+  box-shadow: 0 12px 14px rgba(23, 43, 77, 0.8);
+}
+
+@media (max-width:768px) {
+
+  .ado-con {
+    justify-content: center;
+  }
+
+  .ado-card {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .ado-card i {
@@ -191,6 +222,14 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   padding: 10px;
+}
+
+@media (max-width:768px) {
+  .main-over-con {
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+  }
 }
 
 .mv-con {
@@ -260,9 +299,36 @@ body {
   padding: 10px;
 }
 
+@media (max-width:768px) {
+  .pst-con {
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+  }
+}
+
 
 .lattra {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width:768px) {
+  .mobile-nav {
+    width: 100vw;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mobile.nav i:hover {
+  font-size: 1.2rem;
+}
 }
