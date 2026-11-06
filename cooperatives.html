@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoopConnect_About_Us</title>
+
+  <!-- Google Font Inter -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!-- Google Font Plus Jakarta Sans
+ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+
+  <!--Bootstrap Css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--font awesome---->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+
+  <div class="container-fluid dash-con">
+    <!-- Side Bar -->
+    <div class="sidebar">
+      <div class="sidebar-head mb-3">
+          <div class="nav-icon"><i class="bi-bank"></i></div>
+          <h4>CoopConnect</h4>
+      </div>
+      <div class="sidenav">
+        <h4>MAIN MENU</h4>
+        <a href="main_dashboard.html" class="nav-item nav-link side-item"><i class="fa-solid fa-cubes"></i> Dashboard</a>
+        
+        <a href="cooperatives.html" class="nav-item nav-link side-item">
+          <i class="fa-solid fa-users"></i> My Cooperatives</a>
+
+        <a href="transactions.html" class="nav-item nav-link side-item">
+          <i class="fa-solid fa-right-left"></i> Transaction</a>
+
+        <a href="notifications.html" class="nav-item nav-link side-item">
+          <i class="fa-solid fa-bell"></i> Notifications</a>
+          
+        <hr>
+        
+        <a href="settings.html" class="nav-link side-item">
+          <i class="fa-solid fa-gear"></i> Settings</a>
+
+          <div class="mt-auto">
+            <hr>
+  
+            <a href="account.html" class="nav-link">
+              Your Account
+            </a>
+          </div>
+
+      </div>
+    </div>
+    
+    <!-- Main Dash Area -->
+     <!-- Cooperative heading -->
+    <div class="main-dash">
+      <div class="coop-head mb-3">
+        <h2>My Cooperatives</h2>
+        <p>Manage and keep track of your savings groups.</p>
+      </div>
+
+      <!-- Button & total number of cooperative -->
+      <div class="btn-all mb-3">
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus"></i>
+          Create Cooperative
+        </button>
+
+        <span>
+          04 Cooperatives
+        </span>
+      </div>
+
+      <!-- Search Bar -->
+      
+      <div class="coop-searchbar mb-3">
+      <i class="fa-solid fa-magnifying-glass btn"></i>
+      <input type="text" class="form-control" placeholder="Search cooperative">
+      </div>
+
+       <!-- Cooperative classes -->
+
+      <div class="coop-class mb-3">
+      <a href="#">All</a>
+      <a href="#">Family</a>
+      <a href="#">Workplace</a>
+      <a href="#">Friends</a>
+      <a href="#">Others</a>
+      </div>
+
+       <!-- Cooperatives -->
+
+      <div class="coop-card mb-3">
+
+        <div class="coop-card-head">
+          <span class="card-icon">
+            F
+          </span>
+          <div class="coop-card-text">
+            <p>Family Contributions</p>
+            <span>Family <i class="bi-dot"></i> Active</span>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Cooperative Details -->
+        <div class="coopdets">
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Members
+              </span>
+              <p>
+                8 Members
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Frequency
+              </span>
+              <p>
+                Monthly
+              </p>
+            </div>
+          </div>
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Contribution
+              </span>
+              <p>
+                &#8358;10,000
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Next Payout
+              </span>
+              <p>
+                Nov 10, 2026
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+        <div class="coopdets-link">
+          <a href="#" class="nav-link">View Cooperative</a>
+          <a href="#" class="navlink">
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+
+      </div>
+
+
+       <!-- Cooperatives -->
+
+      <div class="coop-card mb-3">
+
+        <div class="coop-card-head">
+          <span class="card-icon">
+            O
+          </span>
+          <div class="coop-card-text">
+            <p>Office Thrift Group</p>
+            <span>Workplace <i class="bi-dot"></i> Active</span>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Cooperative Details -->
+        <div class="coopdets">
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Members
+              </span>
+              <p>
+                12 Members
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Frequency
+              </span>
+              <p>
+                Weekly
+              </p>
+            </div>
+          </div>
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Contribution
+              </span>
+              <p>
+                &#8358;5,000
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Next Payout
+              </span>
+              <p>
+                Nov 05, 2026
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+        <div class="coopdets-link">
+          <a href="#" class="nav-link">View Cooperative</a>
+          <a href="#" class="navlink">
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+
+      </div>
+
+
+       <!-- Cooperatives -->
+
+      <div class="coop-card mb-3">
+
+        <div class="coop-card-head">
+          <span class="card-icon">
+            F
+          </span>
+          <div class="coop-card-text">
+            <p>Friends Savings Circle</p>
+            <span>Family <i class="bi-dot"></i> Active</span>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Cooperative Details -->
+        <div class="coopdets">
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Members
+              </span>
+              <p>
+                6 Members
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Frequency
+              </span>
+              <p>
+                Monthly
+              </p>
+            </div>
+          </div>
+
+          <div class="coopdet-col">
+            <div class="coopdet-col-item">
+              <span>
+                Contribution
+              </span>
+              <p>
+                &#8358;15,000
+              </p>
+            </div>
+
+            <div class="coopdet-col-item">
+              <span>
+                Next Payout
+              </span>
+              <p>
+                Nov 15, 2026
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+        <div class="coopdets-link">
+          <a href="#" class="nav-link">View Cooperative</a>
+          <a href="#" class="navlink">
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          
+        </div>
+
+
+      </div>
+
+      
+
+      <div class="mobile-nav d-md-none">
+          <a href="main_dashboard.html" class="nav-link side-item"><i class="fa-solid fa-cubes"></i></a>
+          <a href="cooperatives.html" class="nav-link side-item">
+            <i class="fa-solid fa-users"></i></a>
+          <a href="transactions.html" class="nav-link side-item">
+            <i class="fa-solid fa-right-left"></i></a>
+          <a href="notifications.html" class="nav-link side-item">
+            <i class="fa-solid fa-bell"></i></a>        
+          <a href="settings.html" class="nav-link side-item">
+            <i class="fa-solid fa-gear"></i></a>
+      </div>
+<!-- Main dash closing tag -->
+  </div>
+</body>
+</html>

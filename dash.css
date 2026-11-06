@@ -14,6 +14,13 @@ body {
   padding: 0;
 }
 
+@media (max-width:768px) {
+  .dash-con {
+    display: grid;
+    grid-template-columns:1fr;
+  }
+}
+
 .sidebar {
   margin: 0;
   padding: 10px;
@@ -38,6 +45,10 @@ body {
   font-weight: 700;
 }
 
+.sidenav {
+  line-height: 50px;
+}
+
 .sidenav h4 {
   font-size: 1.1rem;
   color: #64748B;
@@ -48,6 +59,11 @@ body {
   color: #0057FF;
   font-weight: 500;
   gap: 20px;
+}
+
+.sidenav a:active {
+  background-color: #6b98f3;
+  border-radius: 10px;
 }
 
 .nav-icon {
@@ -68,11 +84,11 @@ body {
   padding: 10px;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
   .main-dash {
-    width: 100vw;
+    width: 100%;
   }
-}
+} */
 
 .date-icon-con {
   width: 100%;
@@ -142,6 +158,7 @@ body {
   width: fit-content;
   padding: 10px;
   font-size: 0.8rem;
+  font-weight: 400;
   border-radius: 5px;
 }
 
@@ -150,7 +167,8 @@ body {
   transition: 1.5s ease;
   box-shadow: 0 9px 11px rgba(23, 43, 77, 0.8);
   border-radius: 10px;
-  color: #172B4D;
+  color: #F1F5FB;
+  font-weight: 500;
 }
 
 
@@ -297,6 +315,7 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 10px;
+  box-shadow: 0 12px 14px rgba(23, 43, 77, 0.8);
 }
 
 @media (max-width:768px) {
@@ -305,6 +324,36 @@ body {
     justify-self: center;
     width: 90%;
   }
+}
+
+.uprt-con span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.uprt-con p {
+  color: #64748B;
+  font-size: 0.8rem;
+}
+
+.uprt-con h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0057FF;
+}
+
+.uprt-con a {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.alert {
+  color: #16A36A;
+  text-align: center;
+}
+.debit {
+  color: #0057FF;
+  text-align: center;
 }
 
 
@@ -316,7 +365,6 @@ body {
 
 @media (max-width:768px) {
   .mobile-nav {
-    width: 100vw;
     padding: 10px;
     border: 0;
     border-radius: 10px;
@@ -326,9 +374,164 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    justify-self: center;
 }
 
 .mobile.nav i:hover {
   font-size: 1.2rem;
 }
+}
+
+/* Cooperative Page */
+
+.coop-head h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.coop-head p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #64748B;
+}
+
+.btn-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.btn-all button {
+  background-color: #0057FF;
+  border: none;
+  color: #ffffff;
+  width: fit-content;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.btn-all button:hover {
+  transform: translateY(-3px);
+  transition: 1.5s ease;
+  box-shadow: 0 9px 11px rgba(23, 43, 77, 0.8);
+  border-radius: 10px;
+  color: #F1F5FB;
+  font-weight: 500;
+}
+
+.btn-all span {
+  color: #64748B;
+  font-weight: 600;
+}
+
+.coop-searchbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #64748B;
+  font-size: small;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #64748B;
+}
+
+.coop-searchbar i {
+  color: #64748B;
+  border: 2px solid #e2ecfa;
+}
+
+.coop-searchbar input {
+  background-color: transparent;
+  border: none;
+}
+
+.coop-class {
+  gap: 15px;
+  display: flex;
+}
+
+.coop-class a:hover {
+  transform: translateY(-3px);
+  transition: 1s ease;
+  box-shadow: 0 8px 10px rgba(23, 43, 77, 0.8);
+}
+
+.coop-class a{
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.coop-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #64748B;
+  box-shadow: 0 12px 14px rgba(23, 43, 77, 0.8);
+}
+
+.coop-card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  line-height: 5px;
+  font-size: 0.9rem;
+}
+
+.card-icon {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2ecfa;
+  font-weight: 700;
+  color: #0057FF;
+}
+
+.coop-card-text p {
+  font-weight: 700;
+}
+
+.coop-card-text span {
+  color: #64748B;
+  font-weight: 500;
+}
+
+.coopdets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.coopdet-col {
+  text-align: justify;
+  width: 100%;
+  padding: 10px;
+}
+
+.coopdet-col-item span{
+  color: #64748B;
+  font-weight: 500;
+}
+
+.coopdet-col-item p {
+  font-weight: 700;
+}
+
+.coopdets-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0057FF;
+  padding: 10px;
 }
