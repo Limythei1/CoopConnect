@@ -11,6 +11,8 @@ body {
 .dash-con {
   display: grid;
   grid-template-columns: 250px 1fr;
+  height: 100vh;
+  overflow: hidden;
   padding: 0;
 }
 
@@ -22,6 +24,12 @@ body {
 }
 
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
   margin: 0;
   padding: 10px;
   position: relative;
@@ -82,6 +90,7 @@ body {
 
 .main-dash {
   padding: 10px;
+  overflow-y: auto;
 }
 
 /* @media (max-width:768px) {
@@ -240,6 +249,7 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   padding: 10px;
+  padding-bottom: 80px;
 }
 
 @media (max-width:768px) {
@@ -365,7 +375,12 @@ body {
 
 @media (max-width:768px) {
   .mobile-nav {
-    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 1000;
     border: 0;
     border-radius: 10px;
     margin: 0;
