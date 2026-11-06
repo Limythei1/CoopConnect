@@ -155,75 +155,185 @@
       <h1>Your Cooperative, At a Glance.</h1>
     <span>Keep track of your contributions, payout schedule, and savings activity in one place.</span>
     </div>
-    <div class="container dashboard-preview">
-      <div class="dashboard-prew-head">
-        <div class="das-prew-icon">
-          <i class="fa-solid fa-cubes"></i>
+    <div class="main-dash">
+
+      <div class="date-icon-con mb-3">
+<!-- Date & Icon continer -->
+        <div class="date-con">
+          <input type="text" class="form-control" placeholder="Sunday, November 1, 2026" disabled>
         </div>
-        <div class="dash-prew-intro">
-          <h3>Member Dashboard</h3>
-          <p>Sample account - Demo data</p>
+
+        <div class="dateicon-con">
+          <button class="btn iconsdate">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+          <button class=" btn iconsdate">
+            <i class="fa-solid fa-user"></i>
+          </button>
         </div>
+<!-- Date & Icon closing tag -->
       </div>
 
-      <div>
-        <div class="row account-overview justify-content-center my-4">
-        <div class="col-md prew align-items-center">
-          <span>Total Contribution</span>
-          <h4>&#8358;50,000</h4>
+      <div class="gccb-con mb-3">
+<!-- greeting and create cooperative button container -->
+        <div class="g-con">
+          <h2>Welcome back!</h2>
+          <p>Here's what's happening with your cooperatives.</p>
         </div>
-        <div class="col-md prew align-items-center">
+
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus"></i>
+          Create Cooperative
+        </button>
+<!-- greeting and create cooperative button container closing tag -->
+      </div>
+
+      <!-- Account dash Overview -->
+      <div class="row ado-con mb-3">
+        <button class="col-md ado-card">
+          <i class="fa-solid fa-users"></i>
+          <span>My Cooperatives</span>
+          <h4>04</h4>
+          <p id="active_p">Active groups</p>
+        </button>
+
+
+        <button class="col-md ado-card">
+          <i class="fa-solid fa-wallet"></i>
+          <span>Total Contributions</span>
+          <h4>&#8358;85,000</h4>
+          <p>Across all groups</p>
+        </button>
+
+        <button class="col-md ado-card">
+          <i class="fa-solid fa-calendar-check"></i>
           <span>Next Payout</span>
           <h4>&#8358;50,000</h4>
-          <span class="thickspan">Example amount</span>
-        </div>
-      </div>
-      </div>
-
-      <div class="cp-container my-4">
-        <h3>Contribution Progress</h3>
-
-        <div class="mp-container">
-          <span>This month's contribution</span>
-          <span>80%</span>
-        </div>
-
-        <div class="tracker-con">
-          <div class="tracker"></div>
-        </div>
-        
-        <span class="thickspan">Illustrative progress only</span>
+          <p>November 10</p>
+        </button>
       </div>
 
-      <div class="up-container">
-        <h3 class="my-4">Upcoming Payout</h3>
+    <!-- main dash overview details -->
+    <div class="main-over-con mb-3">
+      <div class="mv-con mb-3">
+        <span>My Cooperative</span>
+        <a href="#" class="nav-link">View all <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+<!-- icon cooperative details status container  -->
+        <a href="#" class="nav-link icds-con">
 
-        <div class="member-sche mb-4">
-          <span class="thickspan">Member A</span>
-          <span class="thickspan">October</span>
-        </div>
+          <div class="icd-con">
+            <div class="icd-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="icdd">
+              <span>Family Contributions</span>
+              <p>Family <i class="bi-dot"></i> &#8358;10,000/cycle</p>
+            </div>
+          </div>
 
-        <div class="member-sche my-4">
-          <span class="thickspan">Member B</span>
-          <span class="thickspan">November</span>
-        </div>
+          <div class="ds-con">
+            Active
+          </div>
+<!-- icon cooperative details status container closing tag -->
+        </a>
+        <hr>
 
-        <div class="member-sche my-4">
-          <span class="thickspan">Member C</span>
-          <span class="thickspan">November</span>
-        </div>
+        <!-- icon cooperative details status container  -->
+        <a href="#" class="nav-link icds-con">
 
-        <div class="member-sche my-4">
-          <span class="thickspan">Member D</span>
-          <span class="thickspan">December</span>
-        </div>
+          <div class="icd-con">
+            <div class="icd-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="icdd">
+              <span>Office Thrift Group</span>
+              <p>Workplace <i class="bi-dot"></i> &#8358;50,000/cycle</p>
+            </div>
+          </div>
 
-        <div class="member-sche my-4">
-          <span class="thickspan">Member E</span>
-          <span class="thickspan">January</span>
-        </div>
+          <div class="ds-con">
+            Active
+          </div>
+<!-- icon cooperative details status container closing tag -->
+        </a>
+        <hr>
+
+        <!-- icon cooperative details status container  -->
+        <a href="#" class="nav-link icds-con">
+
+          <div class="icd-con">
+            <div class="icd-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="icdd">
+              <span>Friends Saving Circle</span>
+              <p>Friends <i class="bi-dot"></i> &#8358;15,000/cycle</p>
+            </div>
+          </div>
+
+          <div class="ds-con">
+            Active
+          </div>
+<!-- icon cooperative details status container closing tag -->
+        </a>
+        <hr>
+
+<!-- main dash overview details closing tag -->
+    </div>
+
+    <div class="row pst-con">
+      <div class="col-md uprt-con">
+        <span>Upcoming Payouts</span>
+        <p>Your next scheduled payout</p>
+        <h4>&#8358;50,000</h4>
+        <span>Family Contributions</span>
+        <p>November 10, 2026</p>
+        <hr>
+        <a href="#" class="nav-link">View payout schedule <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="col-md uprt-con">
+        <span>Recent Transaction</span>
+        <p>Latest Account Activities</p>
+        <a href="#" class="nav-link lattra">
+          <div class="lattra-text">
+            <span>Contribution</span>
+            <p>Family Group</p>
+          </div>
+          <div class="alert">
+            +&#8358;10,000
+          </div>
+        </a>
+        <hr>
+
+        <a href="#" class="nav-link lattra">
+          <div class="lattra-text">
+            <span>Payout</span>
+            <p>Friends Circle</p>
+          </div>
+          <div class="debit">
+            &#8358;30,000
+          </div>
+        </a>
+        <hr>
+        <a href="#" class="nav-link">View all transactions <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
+
+    <div class="mobile-nav d-md-none">
+      <a href="main_dashboard.html" class="nav-link side-item"><i class="fa-solid fa-cubes"></i></a>
+      <a href="cooperatives.html" class="nav-link side-item">
+        <i class="fa-solid fa-users"></i></a>
+      <a href="transactions.html" class="nav-link side-item">
+        <i class="fa-solid fa-right-left"></i></a>
+      <a href="notifications.html" class="nav-link side-item">
+        <i class="fa-solid fa-bell"></i></a>        
+      <a href="settings.html" class="nav-link side-item">
+        <i class="fa-solid fa-gear"></i></a>
+    </div>
+<!-- Main dash closing tag -->
+  </div>
   </section>
 
   <!-- Trust Through Transparency -->
