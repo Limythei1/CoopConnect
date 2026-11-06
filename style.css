@@ -769,6 +769,7 @@ h1 {
   /* Dashboard Glance */
 
   .main-dash {
+    justify-self: center;
     width: 90%;
     border-radius: 10px;
   background-color: #e2ecfa;
