@@ -769,7 +769,8 @@ h1 {
   /* Dashboard Glance */
 
   .main-dash {
-    background-color: #e2ecfa;
+    border-radius: 10px;
+  background-color: #e2ecfa;
   padding: 10px;
 }
 
