@@ -18,6 +18,12 @@ h1 {
 }
 
 .navbar-layout {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+  height: fit-content;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,6 +124,7 @@ h1 {
 
 
 .hero {
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,6 +285,7 @@ h1 {
 } */
 
 .hrsw {
+  padding-top: 40px;
   justify-self: center;
   text-align: center;
   color: #ffffff;
@@ -528,6 +536,10 @@ h1 {
 
 .card-body {
   font-weight: 400;
+}
+
+.about-page {
+  padding: 20px;
 }
 
 .about-about {

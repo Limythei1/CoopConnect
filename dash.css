@@ -11,6 +11,7 @@ body {
 .dash-con {
   display: grid;
   grid-template-columns: 250px 1fr;
+  gap: 10px;
   height: 100vh;
   overflow: hidden;
   padding: 0;
@@ -90,8 +91,6 @@ body {
 
 .main-dash {
   padding: 10px;
-  overflow-y: auto;
-}
 
 /* @media (max-width:768px) {
   .main-dash {
@@ -359,11 +358,9 @@ body {
 
 .alert {
   color: #16A36A;
-  text-align: center;
 }
 .debit {
   color: #0057FF;
-  text-align: center;
 }
 
 
@@ -439,6 +436,11 @@ body {
 .btn-all span {
   color: #64748B;
   font-weight: 600;
+}
+
+.searchbar-con {
+  padding: 10px;
+  gap: 10px;
 }
 
 .coop-searchbar {
@@ -549,4 +551,135 @@ body {
   align-items: center;
   color: #0057FF;
   padding: 10px;
+}
+
+/* Transaction Page */
+
+.trans-con {
+  padding: 10px;
+  border: 1px solid #64748B;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.datebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #64748B;
+  font-size: small;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #64748B;
+}
+
+.datebar input {
+  background-color: transparent;
+  border: none;
+}
+
+
+.trans-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trans-head h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.trans-head input {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+
+.trans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trans-dets-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.transdets {
+  /* line-height: 18px; */
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.transdets p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.transdets span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #64748B;
+}
+
+.transdets input {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+
+.transdets input::placeholder {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #64748B;
+}
+
+.debit-trans {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #e2ecfa;
+  color: #0057FF;
+}
+
+.alert-trans {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #E8F7EF;
+  color: #16A36A;
+}
+
+
+.trans-amt-stats {
+  text-align: justify;
+}
+
+.trans-amt-stats p{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+
+.trans-amt-stats span {
+  font-size: 1rem;
+  color: #16A36A;
+  font-weight: 700;
+  background-color: #E8F7EF;
+  padding: 5px;
 }

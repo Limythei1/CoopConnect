@@ -68,6 +68,159 @@
     <!-- Main Dash Area -->
     <div class="main-dash">
 
+      <div class="main-dash">
+        <div class="coop-head mb-3">
+          <h2>Transactions</h2>
+          <p>Track your financial activities across all cooperatives.</p>
+        </div>
+
+        <div class="row ado-con">
+          <button class="col-md ado-card">
+            <span>Total Contributions</span>
+            <h4>&#8358;85,000</h4>
+            <p class="alert">Money contributed</p>
+          </button>
+
+          <button class="col-md ado-card">
+            <span>Total Payout Recieved</span>
+            <h4>&#8358;50,000</h4>
+            <p class="debit">Money recieved</p>
+          </button>
+        </div>
+      </div>
+
+      <div class="trans-con">
+        <h4>Transaction History</h4>
+
+        <!-- Search Bar -->
+      
+      <div class="coop-searchbar mb-3">
+      <i class="fa-solid fa-magnifying-glass btn"></i>
+      <input type="text" class="form-control" placeholder="Search transactions...">
+      </div>
+
+      <div class="row mb-3 searchbar-con">
+        <div class="col-md coop-searchbar">
+          <button class="btn dropdown-toggle" data-bs-toogle="dropdown">All transactions</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Recieved</a>
+            <a href="#" class="dropdown-item">Paid</a>
+        </div>
+        </div>
+        <div class="col-md coop-searchbar">
+          <button class="btn dropdown-toggle" data-bs-toogle="dropdown">All cooperatives</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Friends</a>
+            <a href="#" class="dropdown-item">Family</a>
+            <a href="#" class="dropdown-item">Work</a>
+            <a href="#" class="dropdown-item">Others</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="datebar mb-3">
+        <input type="text" class="form-control" placeholder="Date range.">
+        <i class="fa-solid fa-calendar"></i>
+      </div>
+
+
+      <div class="trans-head">
+        <h4>Recent Activity</h4>
+        <input type="text" class="form-control" placeholder="November 2026" disabled>
+      </div>
+      <hr>
+
+      <div class="trans">
+        <div class="trans-dets-con">
+          <div class="debit-trans">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>  
+            <div class="transdets">
+              <p>Contribution Payment</p>
+              <span>
+                Family Contribution
+              </span>
+              <input type="text" class="form-text" placeholder="Nov 01, 2026" disabled>
+            </div>
+        </div>
+
+        <div class="trans-amt-stats">
+          <p>-&#8358;10,000</p>
+          <span>Completed</span>
+        </div>
+      </div>
+      <hr>
+
+      <div class="trans">
+        <div class="trans-dets-con">
+          <div class="alert-trans">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>  
+            <div class="transdets">
+              <p>Payment Recieved</p>
+              <span>
+                Friend Saving Circle
+              </span>
+              <input type="text" class="form-text" placeholder="Oct 28, 2026" disabled>
+            </div>
+        </div>
+
+        <div class="trans-amt-stats">
+          <p class="alert">&#8358;30,000</p>
+          <span>Completed</span>
+        </div>
+      </div>
+      <hr>
+
+      <div class="trans">
+        <div class="trans-dets-con">
+          <div class="debit-trans">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>  
+            <div class="transdets">
+              <p>Contribution Payment</p>
+              <span>
+                Office Thrift Group
+              </span>
+              <input type="text" class="form-text" placeholder="Oct 25, 2026" disabled>
+            </div>
+        </div>
+
+        <div class="trans-amt-stats">
+          <p>-&#8358;5,000</p>
+          <span>Completed</span>
+        </div>
+      </div>
+      <hr>
+
+      <div class="trans">
+        <div class="trans-dets-con">
+          <div class="alert-trans">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>  
+            <div class="transdets">
+              <p>Payment Recieved</p>
+              <span>
+                Family Contribution
+              </span>
+              <input type="text" class="form-text" placeholder="Oct 28, 2026" disabled>
+            </div>
+        </div>
+
+        <div class="trans-amt-stats">
+          <p class="alert">&#8358;20,000</p>
+          <span>Completed</span>
+        </div>
+      </div>
+      <hr>
+
+      <div class="trans-head">
+        <input type="text" class="form-control" placeholder="Showing 4 of 24 Transactions" disabled>
+        <a href="#" class="nav-link">Show all</a>
+      </div>
+
+
+      </div>
 
       
 
@@ -84,5 +237,9 @@
       </div>
 <!-- Main dash closing tag -->
   </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
