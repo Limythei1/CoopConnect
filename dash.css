@@ -91,6 +91,7 @@ body {
 
 .main-dash {
   padding: 10px;
+  overflow-y: auto;
 
 /* @media (max-width:768px) {
   .main-dash {
